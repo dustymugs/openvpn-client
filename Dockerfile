@@ -1,3 +1,7 @@
+#
+# docker build -f Dockerfile -t dustymugs/openvpn-client:amd64 .
+#
+
 FROM alpine
 MAINTAINER David Personette <dperson@gmail.com>
 
