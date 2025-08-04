@@ -5,7 +5,6 @@ aws ecr get-login-password --region <AWS_REGION> | docker login --username AWS -
 
 =================================
 
-
 [![logo](https://raw.githubusercontent.com/dperson/openvpn-client/master/logo.png)](https://openvpn.net/)
 
 # OpenVPN
