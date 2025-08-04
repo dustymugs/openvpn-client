@@ -1,3 +1,11 @@
+```bash
+aws ecr get-login-password --region <AWS_REGION> | docker login --username AWS --password-stdin <AWS_ACCOUNT_ID>.dkr.ecr.us-east-2.amazonaws.com
+./build.sh -i amd64 -r <AWS_ACCOUNT_ID>.dkr.ecr.us-east-2.amazonaws.com/<REPO_NAME>
+```
+
+=================================
+
+
 [![logo](https://raw.githubusercontent.com/dperson/openvpn-client/master/logo.png)](https://openvpn.net/)
 
 # OpenVPN
